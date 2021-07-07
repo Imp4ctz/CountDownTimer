@@ -7,7 +7,7 @@
 body{
     font-family: "Poppins", "sans-serif";
     margin: 0;
-    background-image: url(https://images.unsplash.com/photo-1619032307810-1cc4167cab28?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+    background-image: url(https://www.lojaeraumavez.com.br/media/wysiwyg/landings/sapatinhos-de-bebe_4.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -17,6 +17,13 @@ body{
     align-items: center;
 }
 
+.bg{
+    background-color: blue;
+    padding: 20px;
+    margin-top: 70px;
+    border-radius: 20px;
+    opacity: 0.9;
+}
 h1{
     font-weight: normal;
     font-size: 4rem;
