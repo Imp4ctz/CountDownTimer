@@ -1,5 +1,4 @@
-const newYear = '1 Jan 2022';
-const mesesEl = document.getElementById('meses');
+const newYear = '12 Nov 2021';
 const diasEl = document.getElementById('dias');
 const horasEl = document.getElementById('horas');
 const minutosEl = document.getElementById('minutos');
@@ -12,9 +11,7 @@ function countDown(){
     const seconds = Math.floor(totalSeconds)% 60;
     const minutes = Math.floor(totalSeconds / 60) % 60;
     const hours = Math.floor(totalSeconds / 60 / 60) % 24;
-    const days = Math.floor(totalSeconds / 60 / 60 / 24) % 30;
-    const months = Math.floor(totalSeconds / 60 / 60 / 24 / 30);
-    mesesEl.innerHTML = months;
+    const days = Math.floor(totalSeconds / 60 / 60 / 24);
     diasEl.innerHTML = formatTime(days);
     horasEl.innerHTML = formatTime(hours);
     minutosEl.innerHTML = formatTime(minutes);
